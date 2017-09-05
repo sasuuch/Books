@@ -44,7 +44,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBezkUi1HAQm3En7PVCJjokyXxE4AenIH4" />
 
-        <activity android:name=".FindLibraryActivity"></activity>
+        <activity android:name=".ReadBooksActivity$FindLibraryActivity"></activity>
     </application>
 
 </manifest>
