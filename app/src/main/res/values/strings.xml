@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Books</string>
+    <string name="read_books">Read books</string>
+    <string name="books_application">Books Application!</string>
+    <string name="about">About application</string>
+    <string name="title_activity_find_library">Map</string>
+    <string name="title_activity_map_pane">Map</string>
+</resources>

@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context="lukaszwojtarowicz.books.HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/books_application"
+        android:textSize="30dp"
+        android:gravity="center">
+    </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/read_books"
+            android:drawableLeft="@drawable/ic_library_books"
+            android:onClick="onReadBookClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find books"
+            android:drawableLeft="@drawable/ic_local_library"
+            android:onClick="onFindBooksClick"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find library"
+            android:drawableLeft="@drawable/ic_local_library"
+            android:onClick="onFindLibraryClick"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:drawableLeft="@drawable/ic_help"
+            android:onClick="onAboutApplicationClick"/>
+
+</LinearLayout>
