@@ -29,7 +29,6 @@
         <activity
             android:name=".FindBooksActivity"
             android:label="Find Library" />
-        <activity android:name=".MapPane" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -41,12 +40,11 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBezkUi1HAQm3En7PVCJjokyXxE4AenIH4" />
 
-
+        <activity android:name=".FindLibraryActivity"></activity>
     </application>
 
 </manifest>
